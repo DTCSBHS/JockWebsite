@@ -2,10 +2,13 @@
 body {background-color:blanchedalmond};
 
 /*Navigation Bar*/
-.topbar {
-    background-color: #b6704f;
-    height: 80px;
+
+ .topnav {
+  position: relative;
+  background-color: #333;
+  overflow: hidden;
 }
+
 
 a {
     background-color: rgba(255, 255, 255, 0.8);  
