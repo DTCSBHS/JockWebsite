@@ -2,16 +2,23 @@
 body {background-color:blanchedalmond};
 
 /*Navigation Bar*/
-nav {
-    
+.topbar {
     background-color: #b6704f;
-    padding: 10px;
+    height: 80px;
 }
 
-nav.a {
+a {
     background-color: rgba(255, 255, 255, 0.8);  
+    color:black;
     text-align: center;
-    padding: 20px 0; 
+    padding: 20px; 
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+a:hover {
+    color:#b6704f;
 }
 
 /*Main Layout Grid from W3Schools*/
